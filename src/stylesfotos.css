@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.fundo {
+    background-image: url("../assets/1139110.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;    
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-bottom: 100px;  
+}
+
+.fotos2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;   
+}
+
+.fotos3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;    
+}
+
+.imagens {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    transition: 2s;
+}
+
+.imagens:hover{
+    transform: scale(1.09);
+}
+   
+.foto1{
+    background-image: url("data:image/jpeg;base64,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");
+    width: 200px;
+    height: 250px;
+
+}
+.foto2 {
+    background-image: url("https://wallpapercave.com/dwp1x/wp10618945.png");
+    width: 200px;
+    height: 250px;
+}
+
+.foto6 {
+    background-image: url("https://wallpapercave.com/wp/wp11258258.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto4 {
+    background-image: url("https://i.pinimg.com/originals/1d/6a/c2/1d6ac23f65e79c88e26ec36017281905.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto10 {
+    background-image: url("https://rare-gallery.com/mocahbig/1380641-Riddler-The-Batman-2022-Movie.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto8 {
+    background-image: url("https://cinesiageek.com.br/wp-content/uploads/2022/03/the-batman-2022-movie-cast-wallpaper-1280x800_3.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto7 {
+    background-image: url("https://rare-gallery.com/mocahbig/1375856-riddler-the-batman-2022-movie-poster-4k-pc-wallpaper.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto9 {
+    background-image: url("https://jornalismorio.espm.br/wp-content/uploads/2022/03/FKC5caUVIAYKE4y-scaled.jpg" );
+    width: 200px;
+    height: 250px;
+}
+
+.foto3 {
+    background-image: url("https://rare-gallery.com/mocahbig/1400036-the-batman-batman-2022-movies-movies-hd-4k-5k.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+.foto5 {
+    background-image: url("https://wallpapers.com/images/hd/the-batman-and-catwoman-2022-poster-jthgfd94jyus6ewd.jpg" );
+    width: 200px;
+    height: 250px;
+}
+
+.foto11 {
+    background-image: url("data:image/jpeg;base64,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");
+    width: 200px;
+    height: 250px;
+}
+
+.foto12 {
+    background-image: url("https://www.vobss.com/wp-content/uploads/2022/03/batman-2022-wallpaper-vobss.jpg");
+    width: 200px;
+    height: 250px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media( max-width: 480px){
+.footer-navigation{
+    display: block;
+}
+
+nav { display: none;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.imagens {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    transition: 1s;
+}
+
+.imagens:hover{
+    transform: scale(1.09);
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    margin-bottom: 0%;
+    margin-left: 25%;
+}
+
+.fotos2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    margin-bottom: 0%;
+    margin-left: 25%;
+}
+
+.fotos3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    align-items: center;
+    margin-bottom: 0%;
+    margin-left: 25%;
+}
+}
+
+

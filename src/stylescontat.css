@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    
+
+    text-decoration: none;
+}
+.fundocoments {
+    background-image: url("../assets/the-batman-2022.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+.pai {
+    margin-left: 750px;
+    width: 480px;
+    height: 500px;
+}
+
+.contato {
+    font-size: x-large;
+    margin-left: 28%;
+    color: aliceblue;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+#email {
+    width: 480px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.contato-email {
+    font-size: large;
+    color: aliceblue;
+}
+
+#name {
+width: 480px;
+height: 30px;
+border-radius: 10px;
+}
+
+.nome {
+    font-size: large;
+    color: aliceblue;
+}
+
+#assunto {
+width: 480px;
+height: 30px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+.textoassunto {
+    font-size: large;
+    color: aliceblue; 
+    border-radius: 10px;
+}
+
+#menssagem {
+width: 480px;
+border-radius: 10px;
+}
+
+.button {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: black;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media( max-width: 768px){
+
+.footer-navigation{
+    display: block;
+}
+
+nav { display: none;
+}
+
+.pai {
+    margin-left: auto;
+    width: 100%;
+    height: 500px;
+}
+
+#email {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.contato-email {
+    font-size: large;
+    color: aliceblue;
+}
+
+#name {
+width: 100%;
+height: 30px;
+border-radius: 10px;
+}
+
+.nome {
+    font-size: large;
+    color: aliceblue;
+}
+
+#assunto {
+width: 100%;
+height: 30px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+.textoassunto {
+    font-size: large;
+    color: aliceblue; 
+    border-radius: 10px;
+}
+
+#menssagem {
+width: 100%;
+border-radius: 10px;
+}
+
+.fundocoments {
+    background-image: none;
+    background-color: black;
+    width: 100%;
+    height: 100%;   
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+}
