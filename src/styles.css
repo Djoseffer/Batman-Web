@@ -222,6 +222,5 @@ nav { display: none;
 .cards-content {
     grid-template-columns: 1fr;
     margin-top: 150px;
-    
 }
 }
